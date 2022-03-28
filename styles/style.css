@@ -1,0 +1,101 @@
+body {
+    background: url('../assets/img/background.jpg');
+}
+
+.text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.header {
+    width: 510px;
+    height: 200px;
+    margin: 50px auto 85px auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 600px;
+    height: 475px;
+    border-radius: 15px;
+    border: 6px solid black;
+    padding: 20px;
+    display: flex; /*display flex para acomodar los elementos dentro del contenedor*/
+    flex-direction: column; /* acomoda los elementos en forma de columna  */
+    justify-content: center; /* el "flex-direction: column;" invierte el funcionamiento y "justify-content" y alinea verticalmente */
+    align-items: center; /* el "flex-direction: column;" invierte el funcionamiento y "justify-content" y alinea horizontalmente */
+    background-color: #E83829;
+}
+
+.left p {
+    margin-top: 18px;
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(18, 248, 147, 0.9);
+    color: black;
+    text-align: center;
+    padding: 10px 4px 4px 4px;
+}
+
+.main-img {
+    border: 14px solid rgb(112, 112, 112);
+    border-radius: 5px 5px 5px 35%;
+    padding: 28px;
+    background-color: white;
+    width: 250px;
+    text-align: center;
+}
+
+.center {
+    width: 50px;
+    height: 350px;
+    margin: auto 0px;
+    background-color: #E83829;
+    border: 6px solid black;
+    border-radius: 15px;
+}
+
+.right {
+    width: 400px;
+    height: 300px;
+    margin: auto 0px;
+    border: 6px solid black;
+    border-radius: 15px 10% 10% 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E83829;
+}
+
+.right input {
+    background-color: rgba(18, 248, 147, 0.9);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 175px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+
+.right button {
+    background-color: #295DE8;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 4px;
+}
+
+.right button:hover {
+    background-color: #4970D6;
+}
